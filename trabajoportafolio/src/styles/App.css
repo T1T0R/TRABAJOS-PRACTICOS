@@ -1,0 +1,48 @@
+/* App.css */
+
+/* Establecer una fuente global */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #0f172a; /* Fondo oscuro para toda la página */
+    margin: 0;
+    padding: 0;
+    color: #f8fafc; /* Color de texto por defecto */
+    box-sizing: border-box;
+  }
+  
+  /* Aseguramos que todo el contenido ocupe todo el alto de la pantalla */
+  html, body, #root {
+    height: 100%;
+  }
+  
+  /* Establecemos márgenes y paddings globales */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Alineamos todo el contenido al centro */
+  .app-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+  }
+  
+  /* Agregar un fondo más claro en el contenedor del main (Home) */
+  .main-content {
+    background-color: #1e293b;
+    padding: 2rem;
+    flex-grow: 1;
+  }
+  
+  a {
+    color: #38bdf8;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  

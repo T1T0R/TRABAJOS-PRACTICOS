@@ -1,0 +1,39 @@
+/* Estilo común para todos los componentes dentro de Main */
+
+.main-content {
+    background-color: #0f172a; /* Fondo oscuro */
+    color: #f8fafc; /* Color de texto */
+    padding: 2rem;
+    border-radius: 1rem;
+    max-width: 800px;
+    margin: 2rem auto;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+  }
+  
+  .main-content:hover {
+    transform: scale(1.02); /* Efecto de escala al pasar el ratón */
+  }
+  
+  /* Estilo común para los títulos dentro de Main */
+  .main-content h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #38bdf8;
+    border-bottom: 2px solid #38bdf8;
+    display: inline-block;
+    padding-bottom: 0.25rem;
+  }
+  
+  /* Estilo común para los textos dentro de Main */
+  .main-content p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #e2e8f0;
+  }
+  
+  /* Asegurarse de que cada componente dentro de Main tenga algo de separación */
+  .main-content > div {
+    margin-bottom: 2rem;
+  }
+  

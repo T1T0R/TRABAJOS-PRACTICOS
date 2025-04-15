@@ -1,0 +1,44 @@
+/* Footer.css */
+
+.footer {
+  background-color: #1e293b;
+  color: #f1f5f9;
+  padding: 2rem;
+  text-align: center;
+  border-top: 3px solid #38bdf8;
+  margin-top: 3rem;
+}
+
+.titulo-footer {
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+  color: #38bdf8;
+}
+
+/* Contenedor para los botones, se encarga de alinearlos en fila con espacios */
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem; /* Espacio entre botones */
+}
+
+/* Estilos para los botones */
+.footer button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+/* Estilos para los íconos */
+.icon {
+  width: 60zpx;  /* Ajusta el tamaño según necesites */
+  height: 60px;
+  transition: transform 0.3s ease;
+  border-radius: 50%; /* Hace que el icono tenga bordes redondeados */
+}
+
+.icon:hover {
+  transform: scale(1.1); /* Efecto hover para resaltar la imagen */
+}
